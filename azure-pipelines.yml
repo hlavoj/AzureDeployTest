@@ -15,7 +15,7 @@ steps:
   displayName: npm install
   inputs:
     command: 'install'
-    workingDir: 'AzureDeployTest'
+    workingDir: 'AzureTestDeployApp'
 - task: Npm@1
   displayName: npm run build
   inputs:
