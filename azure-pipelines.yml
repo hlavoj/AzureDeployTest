@@ -24,8 +24,8 @@ steps:
     customCommand: 'run build-prod'
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: 'dist'
-    includeRootFolder: true
+    rootFolderOrFile: 'dist/AzureTestDeployApp'
+    includeRootFolder: false
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
