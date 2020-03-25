@@ -21,7 +21,7 @@ steps:
   inputs:
     command: 'custom'
     workingDir: ''
-    customCommand: 'run build-prod'
+    customCommand: 'run build'
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: 'dist/AzureTestDeployApp'
